@@ -24,18 +24,23 @@
 ## App Pages
 
 ### Sign In/Up Page
-Users can create a new account or sign in to an existing account using their email or phone number.
+- Offers simple and secure sign-up/sign-in functionality.
+- Integrates Firebase Authentication for robust security.
+
 ![image](https://github.com/lironbar1219/24A10357-Liron-Barsheshet-final-proj-207354614/assets/135021650/b529e70b-7fea-4f81-9978-d743284c7715)
 
 
 ### Homepage
-The homepage lists all the dogs registered by the user. Each entry provides quick access to the dog's detailed profile.
+- Lists all registered dogs with quick access to detailed profiles.
+- Simplified navigation through tap gestures on dog cards.
+
 ![image](https://github.com/lironbar1219/24A10357-Liron-Barsheshet-final-proj-207354614/assets/135021650/3b43adca-1989-4594-8088-f9e611400212)
 ![image](https://github.com/lironbar1219/24A10357-Liron-Barsheshet-final-proj-207354614/assets/135021650/d1496058-d176-43df-9d84-a23f7b13ebe3)
 
 
 ### Add New Dog
-This page allows users to add a new dog to their account, entering details such as the dog's name, breed, date of birth, and a profile photo.
+- Users can add new dog profiles, including detailed information and photos.
+- Implements form validation and date checks for accurate data entry.
 
 ![image](https://github.com/lironbar1219/24A10357-Liron-Barsheshet-final-proj-207354614/assets/135021650/c95d2cb7-484f-4ef8-9aa0-66819db20a4c)
 ![image](https://github.com/lironbar1219/24A10357-Liron-Barsheshet-final-proj-207354614/assets/135021650/5fb12883-5f45-4838-9abf-62bdc2893218)
@@ -51,7 +56,8 @@ Users can view detailed information about each dog, including veterinary visits,
 
 
 ### Update/Delete Dog
-From this page, users can update or delete information about their dogs. This includes managing appointments, updating vaccination dates, or removing a dog's profile.
+- Displays comprehensive information about each dog.
+- Includes veterinary visits, vaccination records, and health-related data.
 
 ![image](https://github.com/lironbar1219/24A10357-Liron-Barsheshet-final-proj-207354614/assets/135021650/4cb5cee2-1f40-4e3f-b575-8246573a7cc6)
 ![image](https://github.com/lironbar1219/24A10357-Liron-Barsheshet-final-proj-207354614/assets/135021650/cc90951c-babb-416d-94ee-ec1ec04f168e)
