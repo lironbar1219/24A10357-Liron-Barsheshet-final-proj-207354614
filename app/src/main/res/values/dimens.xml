@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Corner_radius_card">20dp</dimen>
+    <dimen name="margin_vertical_card">5dp</dimen>
+    <dimen name="height_card">240dp</dimen>
+    <dimen name="width_card">160dp</dimen>
+    <dimen name="elevation_card">10dp</dimen>
+    <dimen name="dog_data_margin_start">85dp</dimen>
+    <dimen name="dog_data_margin_end">5dp</dimen>
+    <dimen name="elevation_data">8dp</dimen>
+    <dimen name="data_text_size">14sp</dimen>
+    <dimen name="no_width">0dp</dimen>
+    <dimen name="CardView_height">200dp</dimen>
+    <dimen name="CardView_marginStart">16dp</dimen>
+    <dimen name="CardView_marginTop">16dp</dimen>
+    <dimen name="CardView_corener_radius">8dp</dimen>
+    <dimen name="CardView_card_elevation">4dp</dimen>
+    <dimen name="padding_card_data_vertical">20dp</dimen>
+    <dimen name="padding_card_data_horizontal">3dp</dimen>
+    <dimen name="textSize">13sp</dimen>
+    <dimen name="data_marginTop">8dp</dimen>
+    <dimen name="Home_data_textsize">15sp</dimen>
+    <dimen name="no_height">0dp</dimen>
+    <dimen name="homepage_layout_padding">16dp</dimen>
+    <dimen name="equal_wight">1</dimen>
+    <dimen name="homepage_marginEnd">8dp</dimen>
+    <dimen name="Update_CardView_card_elevation">6dp</dimen>
+    <dimen name="image_height">300dp</dimen>
+    <dimen name="textSize_update">9sp</dimen>
+    <dimen name="dog_update_textsize">12sp</dimen>
+    <dimen name="newdog_updatedog_image">200dp</dimen>
+    <dimen name="tooltip_padding">8dp</dimen>
+
+
+</resources>

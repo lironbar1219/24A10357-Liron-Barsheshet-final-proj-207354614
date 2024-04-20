@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/tooltip_padding">
+
+    <EditText
+        android:id="@+id/vaccineKind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vaccine Kind" />
+
+    <EditText
+        android:id="@+id/vaccineDateTook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date Took (YYYY-MM-DD)" />
+
+    <EditText
+        android:id="@+id/vaccineNextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Next Date to be Taken (YYYY-MM-DD)" />
+
+    <Button
+        android:id="@+id/saveVaccineInfoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Vaccine Info"
+        android:layout_gravity="center" />
+</LinearLayout>

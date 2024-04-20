@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/vetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vet Name" />
+
+    <EditText
+        android:id="@+id/vetLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Location" />
+
+    <EditText
+        android:id="@+id/vetLastVisitDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Visit Date (YYYY-MM-DD)" />
+
+    <EditText
+        android:id="@+id/vetNextVisitDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Next Visit Scheduled (YYYY-MM-DD)" />
+
+</LinearLayout>

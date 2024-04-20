@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomePageActivity">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/CardView_marginTop"
+        android:textSize="@dimen/Home_data_textsize"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/dogsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/no_height"
+        android:layout_below="@id/welcomeTextView"
+        android:layout_above="@id/buttonContainer"
+        android:layout_marginTop="@dimen/data_marginTop"/>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="@dimen/homepage_layout_padding">
+
+        <!-- Add New Dog Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/addNewDogButton"
+            android:layout_width="@dimen/no_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/equal_wight"
+            android:text="Add new dog"
+            android:textSize="@dimen/textSize"
+            android:layout_marginEnd="@dimen/homepage_marginEnd"/>
+
+        <!-- Sign Out Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signOutButton"
+            android:layout_width="@dimen/no_width"
+            android:layout_height="wrap_content"
+            android:layout_weight="@dimen/equal_wight"
+            android:text="Sign out"
+            android:textSize="@dimen/textSize"
+            android:layout_marginStart="@dimen/homepage_marginEnd"/>
+
+    </LinearLayout>
+</RelativeLayout>

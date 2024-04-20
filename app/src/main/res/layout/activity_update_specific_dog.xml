@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/elevation_card">
+
+    <LinearLayout
+        android:id="@+id/dogDataContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Dog Name -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextDogName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dog Name"
+            android:inputType="textPersonName" />
+
+        <!-- Date of Birth -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextDogDOB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Birth (YYYY-MM-DD)"
+            android:inputType="date" />
+
+        <!-- Breed -->
+        <!-- editText newer version -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextBreed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Breed"
+            android:inputType="textPersonName" />
+
+        <!-- Favorite Food -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextFavoriteFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Favorite Food"
+            android:inputType="textPersonName" />
+
+        <!-- Chip Number -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextChipNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chip Number"
+            android:inputType="number" />
+
+        <!-- Button to Add Veterinary Information -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonAddVetInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dog_update_textsize"
+            android:text="Add/Update Veterinary Information" />
+
+        <!-- Container for Veterinary Information Fields (Initially Empty) -->
+        <LinearLayout
+            android:id="@+id/vetInfoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+        <!-- Button to Add Vaccine Information -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonAddVaccineInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dog_update_textsize"
+            android:text="Add Vaccine Information" />
+
+        <!-- Container for Vaccine Information Fields (Initially Empty) -->
+        <LinearLayout
+            android:id="@+id/vaccineInfoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/selectedDogImageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/newdog_updatedog_image"
+            android:layout_marginTop="@dimen/homepage_layout_padding"
+            android:contentDescription="@string/dog_image"
+            android:src="@drawable/dog_placeholder" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/selectImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Image"
+            android:textSize="@dimen/dog_update_textsize"
+            android:layout_marginTop="@dimen/data_marginTop" />
+
+
+        <!-- Button to Save Dog Information -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonUpdateDogInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Data"
+            android:layout_marginTop="@dimen/homepage_layout_padding"
+            android:textSize="@dimen/dog_update_textsize"
+            android:textColor="@android:color/white" />
+
+        <!-- Button to delete Dog from DB -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonDeleteDog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Dog"
+            android:layout_marginTop="@dimen/homepage_layout_padding"
+            android:textSize="@dimen/dog_update_textsize"
+            android:textColor="@android:color/white" />
+
+        <!-- Button to Go Back -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonReturnHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return To Home Page"
+            android:layout_marginTop="@dimen/data_marginTop"
+            android:textSize="@dimen/dog_update_textsize"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "309470741381",
+    "firebase_url": "https://dog-assitance-manager-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "dog-assitance-manager",
+    "storage_bucket": "dog-assitance-manager.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309470741381:android:d57af8d07c5d71879bbaec",
+        "android_client_info": {
+          "package_name": "com.example.Dog_Manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPQyidzLp_NMJgKw-3B7Y15fyqy2rI1qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

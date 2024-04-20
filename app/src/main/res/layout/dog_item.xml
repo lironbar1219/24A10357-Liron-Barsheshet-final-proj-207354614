@@ -1,0 +1,69 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dogImageCardView"
+        android:layout_width="@dimen/no_width"
+        android:layout_height="@dimen/CardView_height"
+        android:layout_marginStart="@dimen/CardView_marginStart"
+        android:layout_marginTop="@dimen/CardView_marginTop"
+        app:cardCornerRadius="@dimen/CardView_corener_radius"
+        app:cardElevation="@dimen/CardView_card_elevation"
+        app:layout_constraintEnd_toStartOf="@+id/dog_card_data"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/dogShapeableImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/ic_launcher_background" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dog_card_data"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/CardView_height"
+        android:layout_marginTop="@dimen/CardView_marginTop"
+        android:layout_marginEnd="@dimen/CardView_marginStart"
+        app:cardCornerRadius="@dimen/CardView_corener_radius"
+        app:cardElevation="@dimen/CardView_card_elevation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dogImageCardView"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingVertical="@dimen/padding_card_data_vertical"
+                android:paddingHorizontal="@dimen/padding_card_data_horizontal">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/dogData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textSize"
+                    tools:text="Name: Rex\nBreed: Labrador\nDOB: 01/01/2018" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/vetData"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/data_marginTop"
+                    android:textSize="@dimen/textSize"
+                    tools:text="Vet: Dr. Smith\nLocation: Vet Clinic\nLast Visit: 12/12/2020" />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
